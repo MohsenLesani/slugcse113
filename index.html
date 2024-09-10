@@ -36,6 +36,18 @@ Tutors:<br />
     TBA</p>
 <p>Hello and welcome to the parallel and concurrent programming class! In this class, you will learn the fundamentals of parallel programming concepts, including parallel programming models, reasoning about concurrency, and implementing synchronization idioms. Over the last decade, systems have become more and more parallel, from our phones to supercomputers. Now, nearly every modern device now contains many compute units (e.g., CPUs). These different compute units can work together to solve problems more efficiently than individual cores; however, they must be programmed carefully, both in terms of performance and safety. We will learn how to approach parallel programming, from high-level reasoning to concrete implementations.</p>
 <p>This class is scheduled to be in person. We will follow the university guidelines and adapt if necessary. We will do our best to accommodate temporary remote attendance if needed (e.g., if you get sick); however, you are expected to make an effort to attend in-person classes. If your situation requires asynchronous courses, we suggest you contact an undergraduate adviser to discuss alternative options.</p>
+<h2 id="websites-and-forums">Websites and Forums</h2>
+<ul>
+<li><p>Github.io<br />
+<a href="https://mohsenlesani.github.io/slugcse113/" class="uri">https://mohsenlesani.github.io/slugcse113/</a><br />
+<em>Non-protected materials</em> will be hosted on this website. This includes the schedule, lecture slides, and references, etc.</p></li>
+<li><p>Canvas<br />
+Convas link TBA<br />
+<em>Protected materials</em> will be hosted on a Canvas website that you will need your university credentials to access. These materials include homeworks, zoom links, lecture recordings, tests, grades, etc.</p></li>
+<li><p>Piazza<br />
+Piazza link TBA<br />
+<em>A Class forum</em> will be provided in Piazza. If you organize other forums outside of the class Piazza (e.g. discord), you must adhere to academic integrity and be kind and respectful.</p></li>
+</ul>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>The material for this course is adopted from Professor <a href="https://users.soe.ucsc.edu/~tsorensen/">Tyler Sorensen</a>.</p>
 <hr />
@@ -228,18 +240,26 @@ Tutors:<br />
 <h2 id="modules">Modules</h2>
 <p>This class will be split into 5 modules, each of which are roughly two weeks:</p>
 <ul>
-<li><p><strong>Module 1: Introduction, Background and ILP</strong> This module will introduce the class and provide a programming, compiler, and architectural refresher. We will discuss how modern hardware exploits parallelism within a sequential thread (ILP) and how to write parallel code in C++.</p></li>
-<li><p><strong>Module 2: Mutual Exclusion</strong> This module will discuss the fundamental problem of mutual exclusion. We will discuss the theory behind mutual exclusion, how it is implemented in practice, and specialized mutual exclusion implementations.</p></li>
-<li><p><strong>Module 3: Concurrent Data Structures</strong> This module will discuss concurrent objects and how to reason about them. We will discuss several implementations and show how they can be used in load balancing and software pipelining.</p></li>
-<li><p><strong>Module 4: Parallel Programming on GPGPUs</strong> This module will discuss general purpose (GP) GPU programming. We will discuss the SIMT programming model, hierarchical execution, and different architectural considerations when optimizing programs.</p></li>
-<li><p><strong>Module 5: Advanced topics</strong> This module will discuss advanced topics, including memory consistency and fairness.</p></li>
+<li><p><strong>Module 1: Introduction, Background and ILP</strong><br />
+This module will introduce the course and provide a programming, compiler, and architectural refresher. We will discuss how modern hardware exploits parallelism within a sequential thread, known as instruction-level parallelism (ILP), and how to write parallel code in C++.</p></li>
+<li><p><strong>Module 2: Mutual Exclusion</strong><br />
+This module will discuss the fundamental problem of mutual exclusion. We will discuss the theory behind mutual exclusion, how it is implemented in practice, and further, specialized mutual exclusion implementations.</p></li>
+<li><p><strong>Module 3: Concurrent Data Structures</strong><br />
+This module will discuss concurrent objects, and how to reason about them. We will discuss several implementations, and show how they can be used in load balancing and software pipelining.</p></li>
+<li><p><strong>Module 4: Parallel Programming on GPGPUs</strong><br />
+This module will discuss general purpose (GP) GPU programming. We will discuss the single-instruction multiple-threads (SIMT) programming model, hierarchical execution, and different architectural considerations when optimizing programs.</p></li>
+<li><p><strong>Module 5: Advanced topics</strong><br />
+This module will discuss advanced topics, including memory consistency and fairness.</p></li>
 </ul>
 <h2 id="references">References</h2>
 <p>We cover the required material in the class and provide the slides. We do not require a physical textbook for this class; however, we list the following that we will use. Each are available online from the UCSC library.</p>
 <ul>
-<li><a href="https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/h824t0/WorldCat1376835717">The Art of Multiprocessor Programming</a>.</li>
-<li>For those of you who have not taken CSE 120, you may find <a href="https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/15r5l0d/alma9914804950506531">Computer Architecture: A Quantitative Approach</a> helpful. Chapter 2 deals with the memory hierarchy and Chapter 3 deals with hardware for instruction level parallelism.</li>
-<li>For more information on GPU computing, I recommend <a href="https://edoras.sdsu.edu/~mthomas/docs/cuda/cuda_by_example.book.pdf">CUDA by Example</a>.</li>
+<li><a href="https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/h824t0/WorldCat1376835717">The Art of Multiprocessor Programming</a>.<br />
+This book has a nice collection of concurrent data structures.</li>
+<li><a href="https://ucsc.primo.exlibrisgroup.com/permalink/01CDL_SCR_INST/15r5l0d/alma9914804950506531">Computer Architecture: A Quantitative Approach</a><br />
+For those of you who have not taken CSE 120, you may find this helpful. Chapter 2 deals with the memory hierarchy and Chapter 3 deals with hardware for instruction level parallelism.</li>
+<li><a href="https://edoras.sdsu.edu/~mthomas/docs/cuda/cuda_by_example.book.pdf">CUDA by Example</a><br />
+We recommend this book for more information on GPU computing.</li>
 </ul>
 <h2 id="required-background">Required Background</h2>
 <p>The prerequisites for this class are CSE 12 (systems), CSE 101 (data-structures and algorithms), and recommended CSE 120 (architecture). You will need some foundation in all of those topics to succeed in this class. For example: you will need to know data-structures and algorithms, as we will extend some of these sequential concepts to their natural parallel counterparts. You will need some systems background, as we will discussing many aspects of the hardware/software interface. Parallel programming is most efficiently executed on parallel hardware; thus, it is helpful to understand shared hardware resources (e.g. the memory hierarchy) of the underlying architectures.</p>
@@ -252,83 +272,64 @@ Tutors:<br />
 <li>a basic ability to use Github</li>
 <li>a basic ability to use Docker</li>
 </ul>
-<h2 id="class-format">Class Format</h2>
-<p>Each class is 95 minutes. I will plan to be available 10 minutes before class starts and 10 minutes afterwards.</p>
-<p><em>Non-protected materials</em> will be hosted on this website. This includes the schedule, lecture slides, and references, etc.</p>
-<p><em>Protected materials</em> will be hosted on a Canvas website that you will need your university credentials to access. These materials include homeworks, zoom links, lecture recordings, tests, grades, etc.</p>
-<p><em>A Class forum</em> will be provided in Piazza. If you organize other forums outside of the class Piazza (e.g. discord), you must adhere to academic integrity and be kind and respectful.</p>
-<h2 id="quizattendance">Quiz/Attendance</h2>
-<p>Live discussions and synchronous class attendance are a valuable part of the learning experience. I expect you to make an effort to synchronously attend this class, whether on Zoom on in-person.</p>
-<p>I plan to upload recordings of the class to canvas, but this is not a substitute for attendance. This will be graded using a small quiz given at the end of the class. Please do not submit the quiz unless you either attended or watched the lecture.</p>
-<p>You can have up to 3 absences that will not affect your grade.</p>
-<p><em>If synchronous attendance drops significantly then I will stop recording lectures and make attendance a part of the grade</em></p>
+<h2 id="attendancequiz">Attendance/Quiz</h2>
+<p>Live discussions and synchronous class attendance are a valuable part of the learning experience. I expect you to make an effort to synchronously attend this class, whether on Zoom on in-person. I plan to upload recordings of the class to canvas, but this is not a substitute for attendance.</p>
+<p>Attendance will be graded using a small quiz given at the end of the class. Please do not submit the quiz unless you either attended or watched the lecture.</p>
+<p><em>If synchronous attendance drops significantly then I will stop recording lectures and make attendance a part of the grade.</em></p>
 <h2 id="accessibility">Accessibility</h2>
 <p>UC Santa Cruz is committed to creating an academic environment that supports its diverse student body. If you are a student with a disability who requires accommodations to achieve equal access in this course, please submit your Accommodation Authorization Letter from the Disability Resource Center (DRC) to me by email, preferably within the first two weeks of the quarter. I would also like us to discuss ways we can ensure your full participation in the course. I encourage all students who may benefit from learning more about DRC services to contact DRC by phone at 831-459-2089 or by email at drc@ucsc.edu.</p>
 <h2 id="privacy">Privacy</h2>
 <p>I plan to record lectures in class. Please be aware that:</p>
 <ul>
-<li>Things you do or say will be recorded. I doubt that this will be an issue, but if you want me to remove any part of the recording, please just let me know.</li>
-<li>Many forums (e.g. zoom chats, Piazza posts, etc.) chats are not private. Please be respectful and kind and assume everyone can see what you are typing.</li>
+<li>Things you say or do will be recorded. I doubt that this will be an issue, but if you want me to remove any part of the recording, please just let me know.</li>
+<li>Many forums (e.g. zoom chats, Piazza posts, etc.) chats are not private. Please be respectful and kind, and assume everyone can see what you are typing.</li>
 </ul>
 <hr />
 <h1 id="teaching-team">Teaching Team</h1>
 <p>We have a great teaching staff this quarter! All of them are passionate about parallel programming. Please get to know them and take advantage of the office hours and mentoring sessions they provide</p>
-<h3 id="instructor-office-hours">Instructor Office Hours:</h3>
-<p>I will provide 2 office hours per week: Thursdays from 3 - 5 PM.</p>
-<p>My office hours can be remote or in-person. My physical office is E2-233. I will provide a Zoom link on canvas. I manage the office hours through a Google doc sign-up sheet. I will reset the list sometime on Thursday and notify with a canvas announcement. Any name on the list before then will be erased.</p>
-<p>Please sign up for only 1 slot at a time. If there is no other student waiting at the end of your slot, you are welcome to stay. If you want to discuss an issue that you think others might also be interested in, please add the issue to the spreadsheet. If you see your issue listed, please add your name and we add more people to the discussion.</p>
-<p>The sign-up sheet is meant to provide fairness; as such I will be strict about keeping to the schedule. Please forgive any abruptness.</p>
-<h3 id="ta-and-tutor-office-hours">TA and Tutor Office Hours:</h3>
-<h4 id="jessica-dagostini">Jessica Dagostini</h4>
-<p>To reserve a spot - https://calendly.com/jessicadagostini/office-hours-cse113-24</p>
-<ul>
-<li><strong>Wednesdays</strong> - 1 pm to 2 pm - In-person at room BE-151</li>
-<li><strong>Thursdays</strong> - 10 am to 11 am - Remote via Zoom</li>
-</ul>
-<h4 id="gurpreet-dhillon">Gurpreet Dhillon</h4>
-<p>To reserve a spot - https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing</p>
-<ul>
-<li><strong>Mondays</strong> - 12 pm to 1 pm - Remote or in-person at BE 312 C/D</li>
-<li><strong>Fridays</strong> - 1 pm to 3 pm - Remote or in-person at BE 151</li>
-</ul>
-<h4 id="jacob-dickerman">Jacob Dickerman</h4>
-<p>To reserve a spot - https://docs.google.com/spreadsheets/d/1SNNFZ92bLRSw7IDEsAi6OVoyPvUdGzugjLLgtpDq5HQ/edit?usp=sharing</p>
-<ul>
-<li><strong>Thursdays</strong> - 1:30 pm to 3 pm - Remote or in-person (locations updated in sheet)</li>
-<li><strong>Fridays</strong> - 11:30 am to 1 pm - Remote via Zoom</li>
-</ul>
-<h4 id="ryan-nelson">Ryan Nelson</h4>
-<p>To reserve a spot - https://docs.google.com/spreadsheets/d/1sT2Ho_4ed6I6_ikUm0jvZJabPzqk1o8CRM9PGedhQ5Y/edit?usp=sharing</p>
-<ul>
-<li><strong>Wednesdays</strong> - 10:30 am to 12:00 pm - Remote via Zoom</li>
-<li><strong>Thursdays</strong> - 10:00 to 11:30 am - in-person (locations updated in sheet)</li>
-</ul>
+<h2 id="office-hours">Office Hours:</h2>
+<h3 id="jessica-dagostini">Jessica Dagostini</h3>
+<p>Times, Place TBA<br />
+Link to reserve a spot TBA</p>
+<h3 id="gurpreet-dhillon">Gurpreet Dhillon</h3>
+<p>Times, Place TBA<br />
+Link to reserve a spot TBA</p>
+<h3 id="tutor-tba">Tutor TBA</h3>
+<p>Times, Place TBA<br />
+Link to reserve a spot TBA</p>
+<h3 id="tutor-tba-1">Tutor TBA</h3>
+<p>Times, Place TBA<br />
+Link to reserve a spot TBA</p>
+<h3 id="mohsen-lesani-instructor">Mohsen Lesani Instructor</h3>
+<p>TBA</p>
+<p>My office hours can be remote or in-person. My physical office is E2-331. I announced a Zoom link and its passcode on canvas.</p>
 <h2 id="asynchronous-communication">Asynchronous Communication</h2>
-<p>For any questions outside of office hours: Please post to the class Piazza. If it is a sensitive topic, you can post only to the teaching staff. Please do not message me directly unless it is an emergency. I may not respond.</p>
-<p>Link for Piazza is https://piazza.com/ucsc/winter2024/cse113</p>
+<p>For any questions outside of office hours: Please post to the class Piazza.</p>
+<p>Link for Piazza is TBA</p>
 <p>If your question is more general, make it visible to the rest of class. If it isn’t clear if it is a sensitive question or not, please start out by making the question to the teaching staff and we can advise on making it public or not. Feel free to answer questions that your classmates post or freely participate in discussions there.</p>
-<p>Please do not email us individually. Those emails get buried, or they might not be seen by the right member of the teaching staff. This especially applies to grading questions; if you have questions about your grade do <em>not</em> email a grader directly. Write a private post on Piazza to the teaching staff. Typically grades are a collaborative effort between several TAs, and it helps if we can all see the issue.</p>
-<p>We will strive to reply to homework questions and discussions within 24 hours. Do not plan on, or expect help, outside of regular business hours (after 5 pm, weekends, or holidays)</p>
+<p>If it is a sensitive topic, you can post only to the teaching staff. Please do not message me directly unless it is an emergency. Please do not email us individually. Those emails get buried, or they might not be seen by the right member of the teaching staff. This especially applies to grading questions; if you have questions about your grade do <em>not</em> email a grader directly. Write a private post on Piazza to the teaching staff. Typically grades are a collaborative effort between several TAs, and it helps if we can all see the issue.</p>
+<p>We will strive to reply to homework questions and discussions within 24 hours. Please do not plan on, or expect help, outside of regular business hours (after 5 pm, weekends, or holidays)</p>
 <hr />
 <h1 id="assessment">Assessment</h1>
-<h2 id="homework">Homework:</h2>
-<p>There will be one assignment per module, for a total of 5 homeworks.</p>
-<p>We will use github classroom with automatic feedback for 4 of the assignments. Because this is a relatively new setup, there may be some friction getting started. We appreciate your patience and understanding. I will update the class as we make progress.</p>
-<p>We will provide a docker for you to develop in. We plan to enable a git-based workflow where you push your current solution to a repo and receive feedback from a server. You will be graded on the server feedback rather than the results from your own machine. This is to help provide fair (and scalable) grading across the increasing diversity of devices that everyone has these days. Someone with an Apple M-series processor will get very different results than someone with an Intel X86 processor.</p>
-<p><em>Architectural differences are very interesting to discuss and I hope we can have detailed discussions about how your machine’s results differ from the server on Piazza</em></p>
-<p>Homeworks are due at midnight on their due date, but do not plan on help after 5 pm. You will have 10 days for each assignment. You have an additional 3 days to turn homework in late without penalty. After that, late work will not be accepted. The due date for the last homework may need to be adjusted to account for the end of the quarter.</p>
-<h2 id="tests">Tests:</h2>
-<p>There will be tests in this course: a midterm and a final. The midterm will be worth as much as a single homework assignment (10%). The final will be worth 30%.</p>
-<p>The midterm will be given halfway through the class: assigned on Monday, Feb. 12 during class time. The final will be given on Monday, March. 18.</p>
-<p>You will be allowed 3 pages (front and back) of notes in any format (printed, hand-written, colored, etc). Feel free to print slides to use as your notes.</p>
 <h2 id="grade-breakdown">Grade Breakdown</h2>
 <ul>
 <li>Attendance/Quiz: 10%</li>
 <li>Homeworks: 50% (10% each)</li>
-<li>Midterm: 10%</li>
+<li>Midterm Exam: 10%</li>
 <li>Final Exam: 30%</li>
 </ul>
 <p>If you want to discuss a grade, please contact the teaching staff no later than 1 week after the grades are posted.</p>
+<h2 id="attendancequiz-1">Attendance/Quiz</h2>
+<p>A small quiz is given at the end of each class. Each quiz has a few multiple-choice or short-answer questions that are designed to make you think about what you have learned in the class, and the questions might be open-ended. Please do not submit the quiz unless you either attended or watched the lecture. You can have up to 3 absences that will not affect your grade.</p>
+<h2 id="homework">Homework:</h2>
+<p>There will be one assignment per module, for a total of 5 homeworks.</p>
+<p>We will use github classroom with automatic feedback for 4 of the assignments. Because this is a relatively new setup, there may be some friction getting started. We appreciate your patience and understanding. I will update the class as we make progress.</p>
+<p>We will provide a docker for you to develop in. We plan to enable a git-based workflow where you push your current solution to a repo, and receive feedback from a server. You will be graded on the server feedback rather than the results from your own machine. This is to help provide a fair and scalable grading across the increasing diverse devices that everyone has these days. Someone with an Apple M-series processor will get very different results than someone with an Intel X86 processor. Architectural differences are very interesting to discuss and I hope we can have detailed discussions about how your machine’s results differ from the server on Piazza.</p>
+<p>Homeworks are due at midnight on their due date. (Please do not plan on help after 5 pm.) You will have 10 days for each assignment. You have an additional 3 days to turn homework in late <em>without penalty</em>. After that, late submission will not be accepted. The due date for the last homework may need to be adjusted to account for the end of the quarter.</p>
+<h2 id="exams">Exams:</h2>
+<p>There will be exams in this course: a midterm and a final. The midterm will be worth as much as a single homework assignment (10%). The final will be worth 30%.</p>
+<p>The midterm will be given halfway through the class. The final will be given in the finals week. Dates will be announced in the schedule section.</p>
+<p>You will be allowed 3 pages (front and back) of notes in any format (printed, hand-written, colored, etc). Feel free to print slides to use as your notes.</p>
 <h2 id="academic-integrity">Academic Integrity</h2>
 <p>One of the joys of university life is socializing and working with your classmates. I want you to make friends with each other and discuss the material.</p>
 <p><strong>That said, I expect all assignments (code, write-ups, and tests) to be your own original work.</strong></p>

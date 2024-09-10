@@ -17,9 +17,12 @@ CSE113: Parallel and Concurrent Programming
 UCSC CSE  
 Fall 2024  
 
-Instructor: [Mohsen Lesani](https://mohsenlesani.github.io/) <<mlesani@ucsc.edu>>  
-Time: Tuesdays Thursdays 01:30 - 03:05pm  
-Location: Steven Acad 150  
+Instructor:  
+    [Mohsen Lesani](https://mohsenlesani.github.io/) <<mlesani@ucsc.edu>>  
+Time:
+    Tuesdays Thursdays 01:30 - 03:05pm  
+Location:
+    Steven Acad 150  
 TAs:  
     Jessica Dagostini  <<jessica.dagostini@ucsc.edu>>  
     Gurpreet Dhillon <<gdhillo6@ucsc.edu>>  

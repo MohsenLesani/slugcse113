@@ -4,6 +4,12 @@
 
 <!-- [References](#references) -->
 
+<!-- 
+Command:
+pandoc --css=styling.css -s -f markdown+smart --metadata pagetitle="CSE 113: Parallel and Concurrent Programming" --to=html5 index.md -o index.html 
+-->
+
+
 **************************************************
 # Overview
 
@@ -76,7 +82,6 @@ The schedule can adapt to our pace.
 | Wed, March 6     |  Barriers                      | [slides](lectures/CSE113March6_wi2024.pdf)  | Chapter 17
 | Mon, March 11     |  Memory Consistency Models    |  [slides](lectures/CSE113March11_wi2024.pdf)  | [You Don’t Know Jack...](https://queue.acm.org/detail.cfm?id=2088916) 
 | Wed, March 13     |  General concurrent sets             | [slides](lectures/CSE113March13_wi2024.pdf)  | Class Slides
-
 
 Final exam is scheduled for TBA.
 

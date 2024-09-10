@@ -53,7 +53,7 @@ The material for this course is adopted from Professor [Tyler Sorensen](https://
 
 The schedule can adapt to our pace.
 
-### Module 1: Introduction, Background and ILP
+## Module 1: Introduction, Background and ILP
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
@@ -62,7 +62,7 @@ The schedule can adapt to our pace.
 | Wed, Jan. 17     | Instruction Level Parallelism                     | [slides](lectures/CSE113Jan17_wi2024.pdf)    | Appendix B & Class slides
 | Mon, Jan. 22     | C++ threads and caches                            | [slides](lectures/CSE113Jan22_wi2024.pdf)     | Class Slides
 
-### Module 2: Mutual Exclusion
+## Module 2: Mutual Exclusion
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
@@ -71,7 +71,7 @@ The schedule can adapt to our pace.
 | Wed, Jan. 31     | Specialized Mutual Exclusion 2    |  [slides](lectures/CSE113Jan31_wi2024.pdf) | Chapter 7.5 - end
 | Mon, Feb. 5      | Mutex Wrapup                      |  [slides](lectures/CSE113Feb5_wi2024.pdf) | Chapter 8
 
-### Module 3: Concurrent Data Structures
+## Module 3: Concurrent Data Structures
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
@@ -80,7 +80,7 @@ The schedule can adapt to our pace.
 | Wed, Feb. 14     | Specialized Concurrent Queues        |  [slides](lectures/CSE113Feb14_wi2024.pdf) | Class slides
 | Wed, Feb. 21     | Work Stealing                        | [slides](lectures/CSE113Feb21_wi2024.pdf)| Chapter 10 + class slides
 
-### Module 4: GPU Computing
+## Module 4: GPU Computing
 
 | Date             | Topic                    | Slides |   Readings
 |------------------|-----------------------|--------|------------------
@@ -88,7 +88,7 @@ The schedule can adapt to our pace.
 |  Wed, Feb 28    | Javascript Parallelism                          |  [slides](lectures/CSE113Feb28_wi2024.pdf) | Class Slides
 |  Mon, March 4   | Web GPU programming                       | [slides](lectures/CSE113March4_wi2024.pdf)| Class Slides
 
-### Module 5: Advanced topics
+## Module 5: Advanced topics
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
@@ -170,33 +170,41 @@ I plan to record lectures in class. Please be aware that:
 **************************************************
 # Teaching Team
 
-We have a great teaching staff this quarter! All of them are passionate about parallel programming. Please get to know them and take advantage of the office hours and mentoring sessions they provide
+We have a great teaching staff this quarter! All of them are passionate about parallel programming. Please get to know them and take advantage of the office hours and mentoring sessions they provide.
 
 ## Office Hours:
 
-### Jessica Dagostini
+### TA
 
-Times, Place TBA  
-Link to reserve a spot TBA  
+    Jessica Dagostini  
+    <<jessica.dagostini@ucsc.edu>>  
+    Times, Place TBA  
+    Link to reserve a spot TBA  
 
-### Gurpreet Dhillon
+### TA
 
-Times, Place TBA  
-Link to reserve a spot TBA  
+    Gurpreet Dhillon  
+    <<gdhillo6@ucsc.edu>>  
+    Times, Place TBA  
+    Link to reserve a spot TBA  
 
-### Tutor TBA
+### Tutor 
 
-Times, Place TBA  
-Link to reserve a spot TBA  
+    TBA  
+    Times, Place TBA  
+    Link to reserve a spot TBA  
 
-### Tutor TBA
+### Tutor 
 
-Times, Place TBA  
-Link to reserve a spot TBA  
+    TBA  
+    Times, Place TBA  
+    Link to reserve a spot TBA  
 
-### Mohsen Lesani Instructor
+### Instructor
 
-TBA
+    [Mohsen Lesani](https://mohsenlesani.github.io/)  
+    <<mlesani@ucsc.edu>>  
+    TBA  
 
 My office hours can be remote or in-person. My physical office is E2-331. I announced a Zoom link and its passcode on canvas.
 
@@ -248,21 +256,13 @@ You will be allowed 3 pages (front and back) of notes in any format (printed, ha
 
 ## Academic Integrity
 
-One of the joys of university life is socializing and working with your classmates. I want you to make friends with each other and discuss the material. 
+One of the joys of university life is socializing and working with your classmates. We want you to make friends with each other and discuss the material. **That said, I expect all assignments (code, write-ups, and tests) to be your own original work.** If you work together with a classmate on an assignment, please mention this, e.g. in the comments of your code. If you use a figure you didn't create in a write-up, then it needs a citation. Please review the [universities policy on plagiarism](https://guides.library.ucsc.edu/citesources/plagiarism). This class has a zero-tolerance policy on cheating. Please don't do it. We would much rather get a hundred emails asking for help than have to refer anyone for academic misconduct.
 
-**That said, I expect all assignments (code, write-ups, and tests) to be your own original work.**
-
-If you work together with a classmate on an assignment, please mention this, e.g. in the comments of your code. If you use a figure you didn't create in a write-up, then it needs a citation. Please review the [universities policy on plagiarism](https://guides.library.ucsc.edu/citesources/plagiarism)
-
-This class has a zero-tolerance policy on cheating. Please don't do it. I would much rather get a hundred emails asking for help than have to refer anyone for academic misconduct.
-
-As a final note on cheating: the economic condition facing computer science graduates is volatile in the near future. It is crucial that you spend your time at University learning the material deeply. If you cheat, you will not be able to stand out from your colleagues who put in the effort when it comes time to find a job. Cheating will have a devastating and unforgiving impact on your immediate career opportunities. Don't do it.  
+As a final note on cheating: the economic condition facing computer science graduates is volatile in the near future. It is crucial that you benefit from your time at the university, and learn the concepts thoroughly. If you cheat, you will not be able to stand out from others who put in the effort when it comes time to find a job. Cheating will have a devastating impact on your own career opportunities. Just don't do it.
 
 ## Using AI Tools
 
-We are in an exciting time for AI, especially for tools like Github co-pilot and LLMs (e.g., ChatGPT). These tools have incredible potential and they are improving every day. 
-
-However, the educational community has not had sufficient time to understand the impact they will have on learning objectives. This class has been designed to be taken *without* the use of AI tools. For this class, they are not allowed to be used. If we suspect abuse, then we may implement random audits of assignments, where you will be asked to explain your implementation in detail. 
+We are in an exciting time for AI, especially for tools like Github co-pilot and LLMs (e.g., ChatGPT). These tools have incredible potential and they are improving every day. However, the educational community has not had sufficient time to understand their impact on learning objectives. This class has been designed to be taken *without* the use of AI tools. They are not allowed to be used in the course. If we suspect abuse, then we may implement random audits of assignments, where you will be asked to explain your implementation in detail.
 
 If you are interested in seeing how these tools can help with parallel programming, please feel free to use them *after* you have submitted a non-AI version of the homework. We would be very interested in hearing about your experience, e.g., as a piazza post.
 

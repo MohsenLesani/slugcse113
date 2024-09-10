@@ -20,9 +20,9 @@ Fall 2024
 
 Instructor:  
     [Mohsen Lesani](https://mohsenlesani.github.io/) <<mlesani@ucsc.edu>>  
-Time:
+Time:  
     Tuesdays Thursdays 01:30 - 03:05pm  
-Location:
+Location:  
     Steven Acad 150  
 TAs:  
     Jessica Dagostini  <<jessica.dagostini@ucsc.edu>>  

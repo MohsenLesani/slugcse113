@@ -12,7 +12,8 @@ pandoc --css=styling.css -s -f markdown+smart --metadata pagetitle="CSE 113: Par
 **************************************************
 # Overview
 
-Welcome!
+## Welcome
+
 CSE113: Parallel and Concurrent Programming  
 UCSC CSE  
 Fall 2024  

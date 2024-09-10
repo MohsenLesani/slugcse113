@@ -62,7 +62,7 @@ The schedule can adapt to our pace.
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
 | Mon, Jan. 8      | Welcome!                                          | [slides](lectures/CSE113Jan8_wi2024.pdf)     | [Overview page](https://sorensenucsc.github.io/CSE113-wi2022/overview.html)
-| Wed, Jan. 10     | SICK :(                     |      | 
+| Wed, Jan. 10     |                      |      | 
 | Wed, Jan. 17     | Instruction Level Parallelism                     | [slides](lectures/CSE113Jan17_wi2024.pdf)    | Appendix B & Class slides
 | Mon, Jan. 22     | C++ threads and caches                            | [slides](lectures/CSE113Jan22_wi2024.pdf)     | Class Slides
 

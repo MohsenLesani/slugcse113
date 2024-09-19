@@ -61,7 +61,7 @@ The schedule can adapt to our pace.
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
-| | Welcome!                                          | [slides](lectures/CSE113Jan8_wi2024.pdf)     | [Overview page](https://sorensenucsc.github.io/CSE113-wi2022/overview.html)
+| | Welcome!                                          | [slides](lectures/CSE113Jan8_wi2024.pdf)     | 
 | |                      |      | 
 | | Instruction Level Parallelism                     | [slides](lectures/CSE113Jan17_wi2024.pdf)    | Appendix B & Class slides
 | | C++ threads and caches                            | [slides](lectures/CSE113Jan22_wi2024.pdf)     | Class Slides

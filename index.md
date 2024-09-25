@@ -208,7 +208,7 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
     [Mohsen Lesani](https://mohsenlesani.github.io/)  
     <<mlesani@ucsc.edu>>  
-    Thursdays 3-5pm. Office: E2 331  
+    Thursdays 3:10-5:10pm. Office: E2 331  
 
 My office hours can be remote or in-person. My physical office is E2-331. I announced a Zoom link and its passcode on canvas.
 

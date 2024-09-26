@@ -55,24 +55,23 @@ The material for this course is adopted from Professor [Tyler Sorensen](https://
 **************************************************
 # Schedule
 
-The schedule can adapt to our pace.
+The schedule may adapt to our pace.
 
 ## Module 1: Introduction, Background and ILP
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
-| | Welcome!                                          | [slides](lectures/CSE113Jan8_wi2024.pdf)     | 
-| |                      |      | 
-| | Instruction Level Parallelism                     | [slides](lectures/CSE113Jan17_wi2024.pdf)    | Appendix B & Class slides
-| | C++ threads and caches                            | [slides](lectures/CSE113Jan22_wi2024.pdf)     | Class Slides
+| | Welcome!                                          | [slides](lectures/M1.pdf)     |
+| | Instruction Level Parallelism          | [slides](lectures/CSE113Jan17_wi2024.pdf)    | Appendix B & Class slides
+| | C++ threads and caches                  | [slides](lectures/CSE113Jan22_wi2024.pdf)     | Class Slides
 
 ## Module 2: Mutual Exclusion
 
 | Date             | Topic    | Slides |   Readings
 |------------------|----------|--------|----------------
-| | Principles of Mutual Exclusion 1  |  [slides](lectures/CSE113Jan24_wi2024.pdf)  | Chapter 2
+| | Principles of Mutual Exclusion  |  [slides](lectures/CSE113Jan24_wi2024.pdf)  | Chapter 2
 | | Mutual Exclusion in Practice      |  [slides](lectures/CSE113Jan29_wi2024.pdf) | Chapter 2
-| | Specialized Mutual Exclusion 2    |  [slides](lectures/CSE113Jan31_wi2024.pdf) | Chapter 7.5 - end
+| | Specialized Mutual Exclusion    |  [slides](lectures/CSE113Jan31_wi2024.pdf) | Chapter 7.5 - end
 | | Mutex Wrapup                      |  [slides](lectures/CSE113Feb5_wi2024.pdf) | Chapter 8
 
 ## Module 3: Concurrent Data Structures

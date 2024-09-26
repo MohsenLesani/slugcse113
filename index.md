@@ -55,49 +55,54 @@ The material for this course is adopted from Professor [Tyler Sorensen](https://
 **************************************************
 # Schedule
 
-The schedule may adapt to our pace.
+The schedule may adapt to our pace. The slides for each lecture are uploaded before the lecture.
 
 ## Module 1: Introduction, Background and ILP
 
-| Date             | Topic    | Slides |   Readings
-|------------------|----------|--------|----------------
-| | Welcome!                                          | [slides](lectures/M1.pdf)     |
-| | Instruction Level Parallelism          | [slides](lectures/CSE113Jan17_wi2024.pdf)    | Appendix B & Class slides
-| | C++ threads and caches                  | [slides](lectures/CSE113Jan22_wi2024.pdf)     | Class Slides
+| Date       | Topic                             | Slides |   Readings       | Event
+| ----------- | ------------------------------- | -------- | -------------------- | --------------------
+| Sep 26 | Welcome!                               | [slides](lectures/1.M1.1.pdf)     | |
+| Oct 1 | Instruction Level Parallelism | [slides](lectures/2.M1.2.pdf)    | Appendix B & Class slides | HW#1 Release
+| Oct 3 | C++ threads and caches        | [slides](lectures/3.M1.3.pdf)     | Class Slides |
 
 ## Module 2: Mutual Exclusion
 
-| Date             | Topic    | Slides |   Readings
-|------------------|----------|--------|----------------
-| | Principles of Mutual Exclusion  |  [slides](lectures/CSE113Jan24_wi2024.pdf)  | Chapter 2
-| | Mutual Exclusion in Practice      |  [slides](lectures/CSE113Jan29_wi2024.pdf) | Chapter 2
-| | Specialized Mutual Exclusion    |  [slides](lectures/CSE113Jan31_wi2024.pdf) | Chapter 7.5 - end
-| | Mutex Wrapup                      |  [slides](lectures/CSE113Feb5_wi2024.pdf) | Chapter 8
+| Date       | Topic                             | Slides |   Readings       | Event
+| ----------- | ------------------------------- | -------- | -------------------- | --------------------
+| Oct 8   | Principles of Mutual Exclusion  |  [slides](lectures/4.M2.1.pdf)  | Chapter 2 |
+| Oct 10 | Mutual Exclusion in Practice      |  [slides](lectures/5.M2.2.pdf) | Chapter 2 | HW#1 Deadline,  HW#2 Release
+| Oct 15 | Specialized Mutual Exclusion    |  [slides](lectures/6.M2.3.pdf) | Chapter 7.5 - end |
+| Oct 17 | Mutex Wrapup                             |  [slides](lectures/7.M2.4.pdf) | Chapter 8 |
 
 ## Module 3: Concurrent Data Structures
 
-| Date             | Topic    | Slides |   Readings
-|------------------|----------|--------|----------------
-| | Principles of Concurrent Objects     | [slides](lectures/CSE113Feb7_wi2024.pdf)  | Chapter 3
-| | Midterm        |  | 
-| | Specialized Concurrent Queues        |  [slides](lectures/CSE113Feb14_wi2024.pdf) | Class slides
-| | Work Stealing                        | [slides](lectures/CSE113Feb21_wi2024.pdf)| Chapter 10 + class slides
+| Date       | Topic                             | Slides |   Readings       | Event
+| ----------- | ------------------------------- | -------- | -------------------- | --------------------
+| Oct 22 |                                           |           |                           | Midterm
+| Oct 24 | Principles of Concurrent Objects     | [slides](lectures/8.M3.1.pdf)  | Chapter 3 | HW#2 Deadline, HW#3 Release
+| Oct 29 | Specialized Concurrent Queues           |  [slides](lectures/9.M3.2.pdf) | Class slides |
+| Oct 31 | Midterm Review / Guest Lectures  |           |                           | 
+| Nov 3 | Work Stealing                                           | [slides](lectures/10.M3.3.pdf)| Chapter 10 + class slides |
 
 ## Module 4: GPU Computing
 
-| Date             | Topic                    | Slides |   Readings
-|------------------|-----------------------|--------|------------------
-| | Intro to GPUs and GPU programming  | [slides](lectures/CSE113Feb26_wi2024.pdf) | CUDA By Example Chapter 1
-| | Javascript Parallelism                          |  [slides](lectures/CSE113Feb28_wi2024.pdf) | Class Slides
-| | Web GPU programming                       | [slides](lectures/CSE113March4_wi2024.pdf)| Class Slides
+| Date       | Topic                             | Slides |   Readings       | Event
+| ------------ | ------------------------------- | -------- | -------------------- | --------------------
+| Nov 7  | Intro to GPUs and GPU programming  | [slides](lectures/11.M4.1.pdf) | CUDA By Example Chapter 1 | HW#3 Deadline, HW#4 Release
+| Nov 12 | Javascript Parallelism                          |  [slides](lectures/12.M4.2.pdf) | Class Slides |
+| Nov 14 | Web GPU programming, (start memory models?)                       | [slides](lectures/13.M4.3.pdf)| Class Slides |
 
 ## Module 5: Advanced topics
 
-| Date             | Topic    | Slides |   Readings
-|------------------|----------|--------|----------------
-| |  Barriers                      | [slides](lectures/CSE113March6_wi2024.pdf)  | Chapter 17
-| |  Memory Consistency Models    |  [slides](lectures/CSE113March11_wi2024.pdf)  | [You Don’t Know Jack...](https://queue.acm.org/detail.cfm?id=2088916) 
-| |  General concurrent sets             | [slides](lectures/CSE113March13_wi2024.pdf)  | Class Slides
+| Date | Topic                             | Slides |   Readings       | Event
+| ------------  | ------------------------------- | -------- | -------------------- | ----------
+| Nov 19 |  Memory Consistency Models    |  [slides](lectures/14.M5.1.pdf)  | [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) |
+| Nov 21 |  Barriers                      | [slides](lectures/15.M5.2.pdf)  | Chapter 17 | HW#4 Deadline, HW#5 Release
+| Nov 26 |  General concurrent sets             | [slides](lectures/16.M5.3.pdf)  | Chapter 9 + Class Slides |
+| Nov 28 |                                           |           |                           | Holiday
+| Dec 3 |  Concurrent data structures             | [slides](lectures/17.M5.4.pdf)  | Class Slides |
+| Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | HW#5 Deadline
+
 
 Final exam is scheduled for TBA.
 

@@ -62,16 +62,16 @@ The schedule may adapt to our pace. The slides for each lecture are uploaded bef
 | Date       | Topic                             | Slides |   Readings       | Event
 | ----------- | ------------------------------- | -------- | -------------------- | --------------------
 | Sep 26 | Welcome!                               | [slides](lectures/1.M1.1.pdf)     | |
-| Oct 1 | Instruction Level Parallelism | [slides](lectures/2.M1.2.pdf)    | Appendix B & Class slides | HW#1 Release
-| Oct 3 | C++ threads and caches        | [slides](lectures/3.M1.3.pdf)     | Class Slides |
+| Oct 1 | Instruction Level Parallelism | [slides](lectures/2.M1.2.pdf)    | Appendix B & Class slides | 
+| Oct 3 | C++ threads and caches        | [slides](lectures/3.M1.3.pdf)     | Class Slides | HW#1 Release
 
 ## Module 2: Mutual Exclusion
 
 | Date       | Topic                             | Slides |   Readings       | Event
 | ----------- | ------------------------------- | -------- | -------------------- | --------------------
 | Oct 8   | Principles of Mutual Exclusion  |  [slides](lectures/4.M2.1.pdf)  | Chapter 2 |
-| Oct 10 | Mutual Exclusion in Practice      |  [slides](lectures/5.M2.2.pdf) | Chapter 2 | HW#1 Deadline,  HW#2 Release
-| Oct 15 | Specialized Mutual Exclusion    |  [slides](lectures/6.M2.3.pdf) | Chapter 7.5 - end |
+| Oct 10 | Mutual Exclusion in Practice      |  [slides](lectures/5.M2.2.pdf) | Chapter 2 |  HW#2 Release
+| Oct 15 | Specialized Mutual Exclusion    |  [slides](lectures/6.M2.3.pdf) | Chapter 7.5 - end | HW#1 Deadline
 | Oct 17 | Mutex Wrapup                             |  [slides](lectures/7.M2.4.pdf) | Chapter 8 |
 
 ## Module 3: Concurrent Data Structures

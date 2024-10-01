@@ -21,7 +21,7 @@ Fall 2024
 Instructor:  
     [Mohsen Lesani](https://mohsenlesani.github.io/) <<mlesani@ucsc.edu>>  
 Time:  
-    Tuesdays Thursdays 01:30 - 03:05pm  
+    Tuesdays Thursdays 1:30pm - 03:05pm  
 Location:  
     Steven Acad 150  
 TAs:  
@@ -30,7 +30,7 @@ TAs:
 Tutors:  
     Ananthajit Srikanth <<ants@ucsc.edu>>  
     Jacob Dickerman <<jwdicker@ucsc.edu>>  
-    Ashley Lee <<gdhillo6@ucsc.edu>>  
+    Ashley Lee <<allilee@ucsc.edu>>  
 
 Hello and welcome to the parallel and concurrent programming class! In this class, you will learn the fundamentals of parallel programming concepts, including parallel programming models, reasoning about concurrency, and implementing synchronization idioms. Over the last decade, systems have become more and more parallel, from our phones to supercomputers. Now, nearly every modern device now contains many compute units (e.g., CPUs). These different compute units can work together to solve problems more efficiently than individual cores; however, they must be programmed carefully, both in terms of performance and safety. We will learn how to approach parallel programming, from high-level reasoning to concrete implementations.
 
@@ -188,8 +188,8 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
     Jessica Dagostini  
     <<jessica.dagostini@ucsc.edu>>  
-    Tuesdays: 10 am to 11 am Remotely  
-    Thursdays: 11 am to 12 pm @ BE-153A and remote  
+    Tuesdays: 10:00am - 11:00am remotely  
+    Thursdays: 11:00am - 12:00pm @ BE-153A, hybrid  
     [https://calendar.app.google/D8uMjPANd5NS9kUd7](https://calendar.app.google/D8uMjPANd5NS9kUd7)  
     The opening slots will be visible just one day before the day of the OH.  
     Each slot has 15 min each.
@@ -198,39 +198,37 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
     Gurpreet Dhillon  
     <<gdhillo6@ucsc.edu>>  
-    Wednesdays 12pm - 1pm remotely  
-    Fridays 12:30pm - 1:30pm @ BE-312B  
-    Slots are reserved using the following spreadsheet:  
-    [Google Doc](https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing)  
-    The spreadsheet will be cleaned before each OH, so make sure to just write your  
-    name when it's close to the office hours.
+    Wednesdays: 12:00pm - 1:00pm remotely
+    Fridays: 12:30pm - 1:30pm @ BE-312B, in-person
+    [https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing)  
+    This spreadsheet is a sign-up sheet for Wednesday.
 
 ### Tutor 
 
-    Ananthajit Srikanth  
-    <<ants@ucsc.edu>>  
-    Mondays/Wednesdays 5:30pm - 6:30pm @ Jack's lounge    
+    Ananthajit Srikanth
+    <<asrikan1@ucsc.edu>>  
+    Mondays/Wednesdays: 5:30pm - 6:30pm @ Jack's lounge, in-person    
 
 ### Tutor 
 
-    Jacob Dickerman  
-    <<jwdicker@ucsc.edu>>  
-    Monday 1:30pm-2:30pm Hybrid @ S&E library  
-    Wednesdays 10am - 11am remotely
+    Jacob Dickerman
+    <<jwdicker@ucsc.edu>>  
+    Mondays: 1:30pm - 2:30pm @ S&E library, hybrid 
+    Wednesdays: 10:00am - 11:00am remotely 
 
 ### Tutor
 
-    Ashley Lee  
-    <<gdhillo6@ucsc.edu>>  
-    Mondays 11:00am to 12:30pm at Jack's Lounge  
-    Tuesday 12:00pm to 1:30pm remote   
+    Ashley Lee
+    <<allilee@ucsc.edu>>  
+    Mondays: 11:00am - 12:30pm @ Jack's Lounge, in-person 
+    Tuesdays: 12:00pm - 1:30pm remotely
 
 
 ### Instructor
 
     [Mohsen Lesani](https://mohsenlesani.github.io/)  
     <<mlesani@ucsc.edu>>  
-    Thursdays 3:10-5:10pm. Office: E2 331  
+    Thursdays 3:10pm - 5:10pm. Office: E2 331  
     My office hours can be remote or in-person.  
     My physical office is E2-331.  
     I announced a Zoom link and its passcode on canvas.

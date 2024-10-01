@@ -21,7 +21,7 @@ Fall 2024
 Instructor:  
     [Mohsen Lesani](https://mohsenlesani.github.io/) <<mlesani@ucsc.edu>>  
 Time:  
-    Tuesdays Thursdays 1:30pm - 03:05pm  
+    Tuesdays Thursdays 1:30pm - 3:05pm  
 Location:  
     Steven Acad 150  
 TAs:  

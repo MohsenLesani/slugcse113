@@ -28,7 +28,9 @@ TAs:
     Jessica Dagostini  <<jessica.dagostini@ucsc.edu>>  
     Gurpreet Dhillon <<gdhillo6@ucsc.edu>>  
 Tutors:  
-    TBA
+    Ananthajit Srikanth <<ants@ucsc.edu>>  
+    Jacob Dickerman <<jwdicker@ucsc.edu>>  
+    Ashley Lee <<gdhillo6@ucsc.edu>>  
 
 Hello and welcome to the parallel and concurrent programming class! In this class, you will learn the fundamentals of parallel programming concepts, including parallel programming models, reasoning about concurrency, and implementing synchronization idioms. Over the last decade, systems have become more and more parallel, from our phones to supercomputers. Now, nearly every modern device now contains many compute units (e.g., CPUs). These different compute units can work together to solve problems more efficiently than individual cores; however, they must be programmed carefully, both in terms of performance and safety. We will learn how to approach parallel programming, from high-level reasoning to concrete implementations.
 
@@ -189,7 +191,8 @@ We have a great teaching staff this quarter! All of them are passionate about pa
     Tuesdays: 10 am to 11 am Remotely  
     Thursdays: 11 am to 12 pm @ BE-153A and remote  
     [https://calendar.app.google/D8uMjPANd5NS9kUd7](https://calendar.app.google/D8uMjPANd5NS9kUd7)  
-    The opening slots will be visible just one day before the day of the OH. Each slot has 15 min each.
+    The opening slots will be visible just one day before the day of the OH.  
+    Each slot has 15 min each.
 
 ### TA
 
@@ -202,11 +205,13 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 ### Tutor 
 
     Ananthajit Srikanth  
+    <<ants@ucsc.edu>>  
     Mondays/Wednesdays 5:30pm - 6:30pm @ Jack's lounge    
 
 ### Tutor 
 
     Jacob Dickerman  
+    <<jwdicker@ucsc.edu>>  
     Monday 1:30pm-2:30pm Hybrid @ S&E library  
     Wednesdays 10am - 11am remotely
 
@@ -223,8 +228,9 @@ We have a great teaching staff this quarter! All of them are passionate about pa
     [Mohsen Lesani](https://mohsenlesani.github.io/)  
     <<mlesani@ucsc.edu>>  
     Thursdays 3:10-5:10pm. Office: E2 331  
-
-My office hours can be remote or in-person. My physical office is E2-331. I announced a Zoom link and its passcode on canvas.
+    My office hours can be remote or in-person.  
+    My physical office is E2-331.  
+    I announced a Zoom link and its passcode on canvas.
 
 ## Asynchronous Communication
 

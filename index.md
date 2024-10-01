@@ -47,7 +47,7 @@ _Non-protected materials_ will be hosted on this website. This includes the sche
 _Protected materials_ will be hosted on a Canvas website that you will need your university credentials to access. These materials include homeworks, zoom links, lecture recordings, tests, grades, etc.
 
 - Piazza  
-Piazza link TBA  
+<https://piazza.com/class/m1l3ef1im6q1so>  
 _A Class forum_ will be provided in Piazza. If you organize other forums outside of the class Piazza (e.g. discord), you must adhere to academic integrity and be kind and respectful. 
 
 ## Acknowledgements
@@ -200,7 +200,10 @@ We have a great teaching staff this quarter! All of them are passionate about pa
     <<gdhillo6@ucsc.edu>>  
     Wednesdays 12pm - 1pm remotely  
     Fridays 12:30pm - 1:30pm @ BE-312B  
-    Link to reserve a spot TBA  
+    Slots are reserved using the following spreadsheet:  
+    [Google Doc](https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing)  
+    The spreadsheet will be cleaned before each OH, so make sure to just write your  
+    name when it's close to the office hours.
 
 ### Tutor 
 
@@ -236,7 +239,7 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
 For any questions outside of office hours: Please post to the class Piazza. 
 
-Link for Piazza is TBA
+Link for Piazza is <https://piazza.com/class/m1l3ef1im6q1so>.  
 
 If your question is more general, make it visible to the rest of class. If it isn't clear if it is a sensitive question or not, please start out by making the question to the teaching staff and we can advise on making it public or not. Feel free to answer questions that your classmates post or freely participate in discussions there. 
                                                                                              

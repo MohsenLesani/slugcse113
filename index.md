@@ -41,7 +41,7 @@ This class is scheduled to be in person. We will follow the university guideline
 _Non-protected materials_ will be hosted on this website. This includes the schedule, lecture slides, and references, etc.
 
 - Canvas  
-Convas link TBA  
+<https://canvas.ucsc.edu/courses/75704>  
 _Protected materials_ will be hosted on a Canvas website that you will need your university credentials to access. These materials include homeworks, zoom links, lecture recordings, tests, grades, etc.
 
 - Piazza  

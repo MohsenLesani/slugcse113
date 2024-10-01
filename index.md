@@ -186,27 +186,37 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
     Jessica Dagostini  
     <<jessica.dagostini@ucsc.edu>>  
-    Times, Place TBA  
-    Link to reserve a spot TBA  
+    Tuesdays: 10 am to 11 am Remotely  
+    Thursdays: 11 am to 12 pm @ BE-153A and remote  
+    [https://calendar.app.google/D8uMjPANd5NS9kUd7](https://calendar.app.google/D8uMjPANd5NS9kUd7)  
+    The opening slots will be visible just one day before the day of the OH. Each slot has 15 min each.
 
 ### TA
 
     Gurpreet Dhillon  
     <<gdhillo6@ucsc.edu>>  
-    Times, Place TBA  
+    Wednesdays 12pm - 1pm remotely  
+    Fridays 12:30pm - 1:30pm @ BE-312B  
     Link to reserve a spot TBA  
 
 ### Tutor 
 
-    TBA  
-    Times, Place TBA  
-    Link to reserve a spot TBA  
+    Ananthajit Srikanth  
+    Mondays/Wednesdays 5:30pm - 6:30pm @ Jack's lounge    
 
 ### Tutor 
 
-    TBA  
-    Times, Place TBA  
-    Link to reserve a spot TBA  
+    Jacob Dickerman  
+    Monday 1:30pm-2:30pm Hybrid @ S&E library  
+    Wednesdays 10am - 11am remotely
+
+### Tutor
+
+    Ashley Lee  
+    <<gdhillo6@ucsc.edu>>  
+    Mondays 11:00am to 12:30pm at Jack's Lounge  
+    Tuesday 12:00pm to 1:30pm remote   
+
 
 ### Instructor
 

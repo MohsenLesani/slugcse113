@@ -98,8 +98,8 @@ The schedule may adapt to our pace. The slides for each lecture are uploaded bef
 
 | Date | Topic                             | Slides |   Readings       | Event
 | ------------  | ------------------------------- | -------- | -------------------- | ----------
-| Nov 19 |  Memory Consistency Models    |  [slides](lectures/14.M5.1.pdf)  | [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) |
-| Nov 21 |  Barriers                      | [slides](lectures/15.M5.2.pdf)  | Chapter 17 | HW#4 Deadline, HW#5 Release
+| Nov 19 |  Memory Consistency Models    |  [slides](lectures/14.M5.1.pdf)  | [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) | HW#4 Deadline
+| Nov 21 |  Barriers                      | [slides](lectures/15.M5.2.pdf)  | Chapter 17 | HW#5 Release
 | Nov 26 |  General concurrent sets             | [slides](lectures/16.M5.3.pdf)  | Chapter 9 + Class Slides |
 | Nov 28 |                                           |           |                           | Holiday
 | Dec 3 |  Concurrent data structures             | [slides](lectures/17.M5.4.pdf)  | Class Slides |

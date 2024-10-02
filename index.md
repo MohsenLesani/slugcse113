@@ -106,7 +106,7 @@ The schedule may adapt to our pace. The slides for each lecture are uploaded bef
 | Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | 
 
 
-Final exam is scheduled for Thursday Dec 11, 12-3pm in the lecture class.
+Final exam is scheduled for Thursday Dec 12, 12-3pm in the lecture class.
 
 **************************************************
 # Description

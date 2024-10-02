@@ -102,8 +102,8 @@ The schedule may adapt to our pace. The slides for each lecture are uploaded bef
 | Nov 21 |  Barriers                      | [slides](lectures/15.M5.2.pdf)  | Chapter 17 | HW#5 Release
 | Nov 26 |  General concurrent sets             | [slides](lectures/16.M5.3.pdf)  | Chapter 9 + Class Slides |
 | Nov 28 |                                           |           |                           | Holiday
-| Dec 3 |  Concurrent data structures             | [slides](lectures/17.M5.4.pdf)  | Class Slides |
-| Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | HW#5 Deadline
+| Dec 3 |  Concurrent data structures             | [slides](lectures/17.M5.4.pdf)  | Class Slides | HW#5 Deadline
+| Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | 
 
 
 Final exam is scheduled for Thursday Dec 11, 12-3pm in the lecture class.

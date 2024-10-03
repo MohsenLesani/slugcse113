@@ -1,5 +1,5 @@
 # CSE 113: Parallel and Concurrent Programming
-UCSC, Fall 2024
+University of California, Santa Cruz, Fall 2024
 
 **************************************************
 ### | [Overview](#overview)  |  [Schedule](#schedule)  | [Description](#description) | [Teaching Team](#teaching-team)  | [Assessment](#assessment) | 

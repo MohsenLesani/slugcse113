@@ -201,9 +201,9 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
     Gurpreet Dhillon  
     <<gdhillo6@ucsc.edu>>  
-    Wednesdays: 12:00pm - 1:00pm remotely
-    Fridays: 12:30pm - 1:30pm @ BE-312B, in-person
-    [https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing)  
+    Wednesdays: 12:00pm - 1:00pm remotely  
+    Fridays: 12:30pm - 1:30pm @ BE-312B, in-person  
+    [Google Doc](https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing)  
     This spreadsheet is a sign-up sheet for Wednesday.
 
 ### Tutor 
@@ -216,14 +216,14 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 
     Jacob Dickerman
     <<jwdicker@ucsc.edu>>  
-    Mondays: 1:30pm - 2:30pm @ S&E library, hybrid 
+    Mondays: 1:30pm - 2:30pm @ S&E library, hybrid  
     Wednesdays: 10:00am - 11:00am remotely 
 
 ### Tutor
 
     Ashley Lee
     <<allilee@ucsc.edu>>  
-    Mondays: 11:00am - 12:30pm @ Jack's Lounge, in-person 
+    Mondays: 11:00am - 12:30pm @ Jack's Lounge, in-person  
     Tuesdays: 12:00pm - 1:30pm remotely
 
 

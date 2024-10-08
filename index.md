@@ -62,6 +62,8 @@ The material for this course is adopted from Professor [Tyler Sorensen](https://
 
 The schedule may adapt to our pace. The slides for each lecture are uploaded before the lecture.
 
+The example code snippets from the lectures are available at this [Code Repo](https://github.com/MohsenLesani/CSE113_Lecture_Code).
+
 ## Module 1: Introduction, Background and ILP
 
 | Date       | Topic                             | Slides |   Readings       | Event

@@ -109,9 +109,8 @@ The example code snippets from the lectures are available at this [Code Repo](ht
 | Nov 28 |                                           |           |                           | Holiday
 | Dec 3 |  Concurrent data structures             | [slides](lectures/17.M5.4.pdf)  | Class Slides | HW#5 Deadline
 | Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | 
+| Dec 12, 12-3pm, lecture class |                                           |           |                           | Final exam
 
-
-Final exam is scheduled for Thursday Dec 12, 12-3pm in the lecture class.
 
 **************************************************
 # Description

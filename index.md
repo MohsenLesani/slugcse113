@@ -104,9 +104,9 @@ The example code snippets from the lectures are available at this [Code Repo](ht
 | Date | Topic                             | Slides |   Readings       | Event
 | ------------  | ------------------------------- | -------- | -------------------- | ----------
 | Nov 19 |  Memory Consistency Models    |  [slides](lectures/14.M5.1.pdf)  | [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) | HW#4 Deadline
-| Nov 21 |  Barriers                      | [slides](lectures/15.M5.2.pdf)  | Chapter 17 | HW#5 Release
-| Nov 26 |  General concurrent sets             | [slides](lectures/16.M5.3.pdf)  | Chapter 9 + Class Slides |
-| Nov 28 |                                           |           |                           | Holiday
+| Nov 21 |  General concurrent sets | [slides](lectures/15.M5.2.pdf)  | Chapter 9 + Class Slides | HW#5 Release
+| Nov 26 |  Barriers                              | [slides](lectures/16.M5.3.pdf)  | Chapter 17 |
+| Nov 28 |                                               |           |                           | Holiday
 | Dec 3 |  Concurrent data structures             | [slides](lectures/17.M5.4.pdf)  | Class Slides | HW#5 Deadline
 | Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | 
 | Dec 12, 12-3pm, lecture class |                                           |           |                           | Final exam

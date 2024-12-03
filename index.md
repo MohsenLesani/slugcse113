@@ -107,8 +107,8 @@ The example code snippets from the lectures are available at this [Code Repo](ht
 | Nov 21 |  General concurrent sets | [slides](lectures/15.M5.2.pdf)  | Chapter 9 + Class Slides | HW#5 Release
 | Nov 26 |  General concurrent sets / Barriers                              | [slides](lectures/16.M5.3.pdf)  | Chapter 17 |
 | Nov 28 |                                               |           |                           | Holiday
-| Dec 3 |  Barriers             | [slides](lectures/17.M5.4.pdf)  | Class Slides | 
-| Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Guest lectures / Practice session   | [slides](lectures/M5.5.pdf)  | Class Slides | HW#5 Deadline
+| Dec 3 |  Barriers / Processes             | [slides](lectures/17.M5.4.pdf)  | Class Slides | 
+| Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |  Practice session / Research lecture   | [slides](lectures/18.M5.5.pdf)  | Class Slides | HW#5 Deadline
 | Dec 12, 12-3pm, lecture class |                                           |           |                           | Final exam
 
 

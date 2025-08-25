@@ -2,31 +2,106 @@
  * I add this to html files generated with pandoc.
  */
 
-html {
-  font-size: 100%;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+/*.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}*/
+
+:root {
+  --navbar-height: 4em;
+}
+
+.navbar {
+   position: fixed;
+/*    position: sticky; */
+/*    left: 0; */
+   top: 0;
+   height: var(--navbar-height);
+/*    right: 0; */
+/*    height: 60px; */
+/*   text-align: center; */
+/*    width: 100%; */
+/*    left: 50%; */
+/*    transform: translateX(-50%); */
+/*    height: 100vh; */
+/*    justify-content: center; */
+   align-items: center;
+   display: flex;
+   background-color: #F8F8F8;
+/*    background-color: #F5F5F5; */
+/*    overflow: hidden; */
+   padding-left: 1.2em;
+   padding-right: 1.2em;
+/*    display: inline-block; */
+  /* Add more styling as needed */
+   padding: 0 20px;
+   z-index: 1000;
+/*    flex-shrink: 0; */
+}
+
+/* Offset content so it's not hidden behind navbar */
+/* .content { */
+/*   padding-top: 60px; */
+/*    margin-top: 60px; */
+/*    flex: 1; */
+/*    overflow-y: auto; */
+/*    padding: 20px;    */
+/*    padding-top: var(--navbar-height); */
+/* } */
+
+/*
+.navbar a {
+   display: inline-block;
+}
+*/
+
+html * {
+/*   font-size: 100%; */
+/*    font-size: 15px; */
+   font-size: 16px;
+   /*  The following hides outside bullets.   */
+   /*overflow-y: scroll;*/  
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
 }
 
 body {
-  color: #000;
-  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-  font-size: 12px;
-  line-height: 1.7;
-  padding: 1em;
-  margin: auto;
-  max-width: 42em;
-  background: #fefefe;
+/*    height: 100%; */
+   color: #000;
+/*   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif; */
+   font-family: "Open Sans", sans-serif, Courier;
+/*    font-size: 15px; */
+   font-size: 16px;
+   line-height: 1.7;
+   padding: 1em;
+   margin: auto;
+   max-width: 42em;
+   background: #fefefe;
+/*    padding-top: var(--navbar-height); */
+/*    margin-top: 50px; */
+/*    overflow: hidden; /* Important: prevents body scroll */ */
 }
 
+/*.TextStyle {
+   font-family: "Open Sans", Courier;
+   font-size: 15px;
+   text-align: justify;
+   font-style: normal;
+   font-weight: normal;
+}*/
+
+
 a {
-  color: #0645ad;
-  text-decoration: none;
+/*   color: #0645ad; */
+  color: black;
+/*   text-decoration: none; */
+  text-decoration: underline;
+  scroll-margin-top: var(--navbar-height);  
 }
 
 a:visited {
-  color: #0b0080;
+/*   color: #0b0080; */
 }
 
 a:hover {
@@ -63,49 +138,104 @@ a::selection {
 
 p {
   margin: 1em 0;
+/*   margin: 0em 0; */
 }
 
-img {
-  max-width: 50%;
+p.banner {
+   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
+   color:  #303C6C;
+   line-height: 125%;
+   margin-top: 0.4em;
+   margin-bottom: 0em;
+   font-weight: normal;   
+   font-size: 1.8em;
+}
+
+p.fancy {
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  color:  #303C6C;
+  margin: 1em 0;
+}
+
+p.emph {
+   color: green;
+  margin: 1em 0;
+}
+
+.right p {
+   text-align: right
+}
+
+p.justify {
+   text-align: justify
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
   color:  #303C6C;
   line-height: 125%;
   margin-top: 1em;
   font-weight: normal;
+  scroll-margin-top: var(--navbar-height);
+/*   scroll-margin-top: var(--navbar-height); */
 }
 
-h4, h5, h6 {
+h5, h6 {
   font-weight: bold;
 }
 
 h1 {
-  font-size: 1.7em;
-}
-
-h2 {
   font-size: 1.4em;
 }
 
+h2 {
+  font-size: 1.2em;  
+}
+
 h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 h4 {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 h5 {
-  font-size: 0.7em;
+  font-size: 0.5em;
 }
 
 h6 {
   font-size: 0.5em;
 }
 
+/* To have numbers for headers */
+
+/*#page {
+	counter-reset: heading;
+	counter-reset: subheading;
+	counter-reset: subsubheading;
+}
+h1:before {
+	counter-increment: heading;
+}
+h1 {
+	counter-reset: subheading;
+}
+h2:before {
+	content: counter(subheading)". ";
+	counter-increment: subheading;
+}
+h2 {
+	counter-reset: subsubheading;
+}
+h3:before {
+	content: counter(subheading)"."counter(subsubheading)". ";
+	counter-increment: subsubheading;
+}*/
+
+
 blockquote {
-  color: #666666;
+  color: #0d154a;
   margin: 0;
   padding-left: 3em;
   border-left: 0.5em #EEE solid;
@@ -115,17 +245,23 @@ hr {
   display: block;
   height: 2px;
   border: 0;
-  border-top: 1px solid #aaa;
-  border-bottom: 1px solid #eee;
+/*   border-top: 1px solid #aaa; */
+/*   border-bottom: 1px solid #eee; */
   margin: 1em 0;
   padding: 0;
+  border-color: #303C6C;
+  background-color: #303C6C;
+  color: #303C6C;
 }
+
 
 pre, code, kbd, samp {
   color: #000;
   font-family: monospace, monospace;
   _font-family: 'courier new', monospace;
-  font-size: 0.98em;
+  font-size: 0.9em;
+/*   font-size: inherit; */
+  background-color: #f7f7f7;
 }
 
 pre {
@@ -133,6 +269,85 @@ pre {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+
+/* Target pre and code blocks with sourceCode class, any language */
+pre.sourceCode[class*="sourceCode"],
+pre.sourceCode[class*="sourceCode"] code,
+code.sourceCode[class*="sourceCode"] {
+  color: #000;
+  font-family: monospace, monospace;
+  _font-family: 'courier new', monospace;
+  font-size: 0.95em;
+/*   font-size: inherit; */
+  background-color: #f7f7f7;
+}
+
+/* Make syntax highlighting spans inherit font-size */
+pre.sourceCode[class*="sourceCode"] span,
+code.sourceCode[class*="sourceCode"] span {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.sourceCode {
+  position: relative; /* so the button can be placed inside */
+/*   display: inline-block; */
+}
+.sourceCode .copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+/*   font-size: 14px; */
+  font-size: 1em;
+  cursor: pointer;
+  opacity: 0.6;
+  user-select: none;
+}
+.sourceCode .copy-btn:hover {
+  opacity: 1;
+}
+
+.copy-btn {
+ display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;   /* slightly wider than the icon */
+  height: 2em;    /* match one line of text */
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+/*   background-color: #f9f9f9; */
+  cursor: pointer;
+}
+.copy-btn svg {
+  display: block;                /* remove inline spacing around SVG */
+  width: 0.85em;      /* icon matches line height */
+  height: 0.85em;
+}
+
+/*
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  position: relative;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #eee;
+  border: none;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background: #ddd;
+}*/
 
 b, strong {
   font-weight: bold;
@@ -170,18 +385,163 @@ sub {
   bottom: -0.25em;
 }
 
-ul, ol {
-  margin: 1em 0;
-  padding: 0 0 0 2em;
+/* ************************************* */
+
+ol {
+  list-style-position: outside;
+  padding-left: 1.5rem; 
 }
 
-li p:last-child {
+/*ol li, ol li p {
+  margin: 0 0 0 0;
   margin-bottom: 0;
+  padding-left: 0em;
 }
 
-ul ul, ol ol {
-  margin: .3em 0;
+ul ol li, ul ol li p {
+  list-style-type: decimal;   
+  list-style-position: outside;
+  padding-left: 1.4rem;
+}*/
+
+/* ************************************* */
+/* margin: top | right | bottom | left */
+
+/*   margin-top: 0; */
+/*   padding: 0 0 0 2em; */
+/*    margin-left: 40px; */
+/*    padding-left: 0px;   */
+
+/* ************************************* */
+ul {
+   margin-top: 0;
+   padding-left: 1rem;
+   list-style-type: disc;
+/*    list-style-position: outside; */
 }
+
+/*ul li, ul li p {
+  margin: 0 0 0 0;
+  padding-left: 0em;
+}*/
+
+/*ul li:last-child, ul li:last-child p {
+   margin-bottom: 0;
+   background: #ffe5e5;
+}*/
+
+
+/*ul li:last-child, ul li:last-child p {
+   margin-bottom: 1em;
+   background: #ffe5e5;
+}*/
+
+/* margin-left: 40px; */
+
+/*ul ul {
+   margin-top: 0;
+   margin-left: 10px;
+   list-style-type: disc;
+   list-style-position: outside;
+}*/
+
+/* ************************************* */
+
+/*ul .airlist ul {
+   margin-top: 0
+}*/
+
+/* ************************************* */
+ul.airlist {
+   list-style: none;
+   padding-left: 0;
+   margin-bottom: 1em;
+   margin-left: 0;
+}
+
+ul.airlist > ul {
+  list-style: none;
+/*   margin: 0; */
+  padding: 0;
+  display: contents;   /* removes its visual effect */
+}
+
+ul.airlist li > ul {
+  list-style: none;
+/*   margin: 0; */
+  padding-left: 1em; /* indent true nested lists */
+}
+
+/*ul.airlist ul {
+   list-style: none;
+   padding-left: 1.5em;
+}*/
+/* add indentation for nested lists */
+
+/* When .airlist is inside a normal <li>, add left padding so it respects outer list */
+/*li > .airlist {
+  padding-left: 1.5em;
+}*/
+/* match the outer <ul> indentation */
+
+/* Needed to not have indentation for the top level. */
+/* body > .airlist ul { */
+/* body >  */
+/*   margin-top: 1em; */
+/*airlist ul {
+  padding-left: 0em; 
+  list-style-type: none;
+}*/
+
+/*ul .airlist ul {
+  margin-top: 0;
+  background: #ffe5e5;
+}*/
+
+/*.airlist ul .airlist ul {
+   margin-top: 0;
+   padding-left: 1em;
+}*/
+
+
+/*.airlist ul li ul, .airlist ul li ul p {
+  margin: 0 0 0 0;
+  padding-left: 1em;
+}*/
+
+/*
+.airlist ul li, .airlist ul li p {
+  margin: 0 0 0 0;
+  padding-left: 0em;
+}
+
+.airlist ul li ul li, .airlist ul li ul li p {
+  margin: 0 0 0 0;
+  padding-left: 0em;
+}*/
+
+/*.airlist ul ol li, .airlist ul ol li p {
+  list-style-type: decimal;   
+  list-style-position: outside;
+  padding-left: 1.4rem;
+}
+
+.airlist ol {
+  list-style-position: outside;
+  padding-left: 1.4rem;
+}
+
+.airlist ol li, .airlist ol li p {
+  margin: 0 0 0 0;
+  margin-bottom: 0;
+  padding-left: 0em;
+}*/
+
+/*.airlist ol ul {
+  margin-top: 0
+}*/
+
+/* ************************************* */
 
 dl {
   margin-bottom: 1em;
@@ -200,10 +560,18 @@ dd:last-child {
   margin-bottom: 0;
 }
 
-img {
+/*  Prevent scaling */
+img {   
+/*   margin: auto;  */
   border: 0;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
+  /* The template had the following.  */
+/*   max-width: 100%;  */
+  max-width: 33%;
+/*   max-width: 30%; */
+/*   height: auto; */
+/*   width: auto; */
 }
 
 figure {
@@ -298,11 +666,11 @@ table td {
   pre, blockquote {
     border: 1px solid #999;
     padding-right: 1em;
-    page-break-inside: avoid;
+    page-break-outside: avoid;
   }
 
   tr, img {
-    page-break-inside: avoid;
+    page-break-outside: avoid;
   }
 
   img {
@@ -326,3 +694,5 @@ table td {
     page-break-after: avoid;
   }
 }
+
+

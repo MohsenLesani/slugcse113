@@ -207,7 +207,7 @@ We have a great teaching staff this quarter! All of them are passionate about pa
     [Google Doc](https://docs.google.com/spreadsheets/d/1D_Z7ABTYHt5sTkUaRpSM7-748l-P8LA-hbYdGugKk-I/edit?usp=sharing)  
     This spreadsheet is a sign-up sheet for Wednesday.
 
-### Tutor 
+### Tutor
 
     Ananthajit Srikanth
     <<asrikan1@ucsc.edu>>  

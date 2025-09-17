@@ -138,10 +138,11 @@ a::selection {
 
 p {
   margin: 1em 0;
+  text-align: justify
 /*   margin: 0em 0; */
 }
 
-p.banner {
+p.banner, p.title {
    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
    color:  #303C6C;
    line-height: 125%;
@@ -151,10 +152,11 @@ p.banner {
    font-size: 1.8em;
 }
 
-p.fancy {
+p.fancy, p.subtitle {
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
   color:  #303C6C;
-  margin: 1em 0;
+/*   margin: 1em 0; */
+  margin-top: 0;
 }
 
 p.emph {
@@ -166,8 +168,12 @@ p.emph {
    text-align: right
 }
 
-p.justify {
+/*p.justify {
    text-align: justify
+}*/
+
+body:has(.navbar) {
+  padding-top: var(--navbar-height);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -254,7 +260,6 @@ hr {
   color: #303C6C;
 }
 
-
 pre, code, kbd, samp {
   color: #000;
   font-family: monospace, monospace;
@@ -280,6 +285,7 @@ code.sourceCode[class*="sourceCode"] {
   font-size: 0.95em;
 /*   font-size: inherit; */
   background-color: #f7f7f7;
+  overflow-x: auto;           /* ✅ allows horizontal scrolling */  
 }
 
 /* Make syntax highlighting spans inherit font-size */
@@ -392,18 +398,6 @@ ol {
   padding-left: 1.5rem; 
 }
 
-/*ol li, ol li p {
-  margin: 0 0 0 0;
-  margin-bottom: 0;
-  padding-left: 0em;
-}
-
-ul ol li, ul ol li p {
-  list-style-type: decimal;   
-  list-style-position: outside;
-  padding-left: 1.4rem;
-}*/
-
 /* ************************************* */
 /* margin: top | right | bottom | left */
 
@@ -416,40 +410,10 @@ ul ol li, ul ol li p {
 ul {
    margin-top: 0;
    padding-left: 1rem;
-   list-style-type: disc;
+/*    list-style-type: disc; */
+   list-style-type: circle;
 /*    list-style-position: outside; */
 }
-
-/*ul li, ul li p {
-  margin: 0 0 0 0;
-  padding-left: 0em;
-}*/
-
-/*ul li:last-child, ul li:last-child p {
-   margin-bottom: 0;
-   background: #ffe5e5;
-}*/
-
-
-/*ul li:last-child, ul li:last-child p {
-   margin-bottom: 1em;
-   background: #ffe5e5;
-}*/
-
-/* margin-left: 40px; */
-
-/*ul ul {
-   margin-top: 0;
-   margin-left: 10px;
-   list-style-type: disc;
-   list-style-position: outside;
-}*/
-
-/* ************************************* */
-
-/*ul .airlist ul {
-   margin-top: 0
-}*/
 
 /* ************************************* */
 ul.airlist {
@@ -472,74 +436,27 @@ ul.airlist li > ul {
   padding-left: 1em; /* indent true nested lists */
 }
 
-/*ul.airlist ul {
+/* To use the name air */
+
+ul.air {
    list-style: none;
-   padding-left: 1.5em;
-}*/
-/* add indentation for nested lists */
-
-/* When .airlist is inside a normal <li>, add left padding so it respects outer list */
-/*li > .airlist {
-  padding-left: 1.5em;
-}*/
-/* match the outer <ul> indentation */
-
-/* Needed to not have indentation for the top level. */
-/* body > .airlist ul { */
-/* body >  */
-/*   margin-top: 1em; */
-/*airlist ul {
-  padding-left: 0em; 
-  list-style-type: none;
-}*/
-
-/*ul .airlist ul {
-  margin-top: 0;
-  background: #ffe5e5;
-}*/
-
-/*.airlist ul .airlist ul {
-   margin-top: 0;
-   padding-left: 1em;
-}*/
-
-
-/*.airlist ul li ul, .airlist ul li ul p {
-  margin: 0 0 0 0;
-  padding-left: 1em;
-}*/
-
-/*
-.airlist ul li, .airlist ul li p {
-  margin: 0 0 0 0;
-  padding-left: 0em;
+   padding-left: 0;
+   margin-bottom: 1em;
+   margin-left: 0;
 }
 
-.airlist ul li ul li, .airlist ul li ul li p {
-  margin: 0 0 0 0;
-  padding-left: 0em;
-}*/
-
-/*.airlist ul ol li, .airlist ul ol li p {
-  list-style-type: decimal;   
-  list-style-position: outside;
-  padding-left: 1.4rem;
+ul.air > ul {
+  list-style: none;
+/*   margin: 0; */
+  padding: 0;
+  display: contents;   /* removes its visual effect */
 }
 
-.airlist ol {
-  list-style-position: outside;
-  padding-left: 1.4rem;
+ul.air li > ul {
+  list-style: none;
+/*   margin: 0; */
+  padding-left: 1em; /* indent true nested lists */
 }
-
-.airlist ol li, .airlist ol li p {
-  margin: 0 0 0 0;
-  margin-bottom: 0;
-  padding-left: 0em;
-}*/
-
-/*.airlist ol ul {
-  margin-top: 0
-}*/
 
 /* ************************************* */
 

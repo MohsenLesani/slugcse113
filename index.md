@@ -1,5 +1,7 @@
-# CSE 113: Parallel and Concurrent Programming
-University of California, Santa Cruz, Fall 2024
+---
+title: CSE 113: Parallel and Concurrent Programming
+subtitle: University of California, Santa Cruz, Fall 2024
+---
 
 **************************************************
 ### | [Overview](#overview)  |  [Schedule](#schedule)  | [Description](#description) | [Teaching Team](#teaching-team)  | [Assessment](#assessment) | 

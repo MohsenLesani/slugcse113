@@ -140,9 +140,11 @@ p {
   margin: 1em 0;
   text-align: justify
 /*   margin: 0em 0; */
+   white-space: pre-wrap;
+   /*  To preserve indentation  */
 }
 
-p.banner, p.title {
+p.banner, p.title, h1.title {
    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
    color:  #303C6C;
    line-height: 125%;
@@ -152,11 +154,15 @@ p.banner, p.title {
    font-size: 1.8em;
 }
 
-p.fancy, p.subtitle {
+
+p.fancy, p.subtitle, p.author, .author .name, .author .institute, .date {
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
   color:  #303C6C;
 /*   margin: 1em 0; */
+  font-size: 1.1em;
   margin-top: 0;
+  margin-bottom: 0;
+  text-align: left
 }
 
 p.emph {
@@ -164,7 +170,15 @@ p.emph {
   margin: 1em 0;
 }
 
-.right p {
+/*.right p {
+   text-align: right
+}*/
+
+/*.right * {
+   text-align: right
+}*/
+
+.right {
    text-align: right
 }
 
@@ -410,11 +424,21 @@ ol {
 ul {
    margin-top: 0;
    padding-left: 1rem;
-/*    list-style-type: disc; */
-   list-style-type: circle;
+   list-style-type: disc;
+/*    list-style-type: circle; */
 /*    list-style-position: outside; */
 }
 
+/* Level 4 and deeper: no bullets */
+ul ul ul ul,
+ul ul ul ul ul,
+ul ul ul ul ul ul 
+ul ul ul ul ul ul ul
+ul ul ul ul ul ul ul ul
+ul ul ul ul ul ul ul ul ul
+ul ul ul ul ul ul ul ul ul ul {
+    list-style-type: none;
+}
 /* ************************************* */
 ul.airlist {
    list-style: none;
@@ -530,10 +554,10 @@ table td {
   vertical-align: top;
 }
 
-.author {
+/*.author {
   font-size: 1.2em;
   text-align: center;
-}
+}*/
 
 @media only screen and (min-width: 480px) {
   body {
@@ -613,3 +637,34 @@ table td {
 }
 
 
+.header-section-number {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  margin-right: 0.2em;
+}
+
+.header-section-number::after {
+  content: ". ";
+}
+
+/* pull the list up */
+/*p + ul, p + ol {
+  margin-top: -0.5em;
+}
+*/
+
+ul, ol {
+  margin-top: 0;
+}
+
+/*zeroing paragraph margins inside list items:*/
+li > p {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+/*This targets any <p> that is immediately followed by a <ul> or <ol> and removes its bottom margin.*/
+p:has(+ ul), p:has(+ ol) {
+  margin-bottom: 0;
+}

@@ -24,8 +24,8 @@ Location:
     Porter Acad 148
 TAs:
     Md Hasanul Islam <<mislam5@ucsc.edu>>
-Tutors:
-    TBA
+Tutor:
+    Pratham Kotkar <<pkotkar@ucsc.edu>>
 
 Hello and welcome to the parallel and concurrent programming class! Over the last decade, systems have become increasingly parallel, from our phones to supercomputers. Nearly every device today contains multiple compute units, CPUs and GPUs among them. Working together, these units can solve problems such as model training far faster than a single core can. But they must be programmed with care, for both performance and safety. In this class, you will learn parallel programming models, synchronization idioms and their implementation, and reasoning about concurrency. 
 <!-- We will approach parallel programming from high-level reasoning down to concrete implementations. -->
@@ -50,7 +50,7 @@ _Protected materials_ will be hosted on a Canvas website that you will need your
 <https://piazza.com/class/mubljwbhjval1/>
 _A Class forum_ will be provided in Piazza. If you organize other forums outside of the class Piazza (e.g. discord), you must adhere to academic integrity and be kind and respectful. 
 
-## Acknowledgements
+## Acknowledgement
 
 The material for this course is adopted from Professor [Tyler Sorensen](https://users.soe.ucsc.edu/~tsorensen/).
 
@@ -65,49 +65,48 @@ The example code snippets from the lectures are available at this [Code Repo](ht
 
 | Date | Topic | Slides | Readings | Event
 | --------------- | ------------------------------- | -------- | -------------------- | --------------------
-| Sep 26 | Welcome! | [slides](lectures/1.M1.1.pdf) | |
-| Oct 1 | Instruction Level Parallelism | [slides](lectures/2.M1.2.pdf)| Appendix B & Class slides | 
-| Oct 3    | C++ threads and caches| [slides](lectures/3.M1.3.pdf) | Class Slides | HW#1 Release
+| Sep 24 | Welcome! | [slides](lectures/1.M1.1.pdf) | |
+| Sep 29 | Instruction Level Parallelism | [slides](lectures/2.M1.2.pdf)| Appendix B & Class slides | HW#1 Release
+| Oct 1    | C++ threads and caches| [slides](lectures/3.M1.3.pdf) | Class Slides | 
 
 ## Module 2: Mutual Exclusion
 
 | Date | Topic | Slides | Readings | Event
 | ---------------- | ------------------------------- | -------- | -------------------- | --------------------
-| Oct 8     | Principles of Mutual Exclusion|[slides](lectures/4.M2.1.pdf)| Chapter 2 |
-| Oct 10 | Mutual Exclusion in Practice|[slides](lectures/5.M2.2.pdf) | Chapter 2 |HW#2 Release
-| Oct 15 | Specialized Mutual Exclusion|[slides](lectures/6.M2.3.pdf) | Chapter 7.5 - end | HW#1 Deadline
-| Oct 17 | Mutex Wrapup |[slides](lectures/7.M2.4.pdf) | Chapter 8 |
+| Oct 6     | Principles of Mutual Exclusion|[slides](lectures/4.M2.1.pdf) | Chapter 2 |
+| Oct 8 | Mutual Exclusion in Practice|[slides](lectures/5.M2.2.pdf) | Chapter 2 | HW#2 Release | HW#1 Deadline
+| Oct 13 | Specialized Mutual Exclusion|[slides](lectures/6.M2.3.pdf) | Chapter 7.5 - end | 
+| Oct 15 | Mutex Wrapup |[slides](lectures/7.M2.4.pdf) | Chapter 8 |
 
 ## Module 3: Concurrent Data Structures
 
 | Date | Topic | Slides | Readings | Event
 | ----------- | ------------------------------- | -------- | -------------------- | --------------------
-| Oct 22 | | | | Midterm
-| Oct 24 | Principles of Concurrent Objects | [slides](lectures/8.M3.1.pdf)| Chapter 3 | HW#2 Deadline, HW#3 Release
-| Oct 29 | Specialized Concurrent Queues |[slides](lectures/9.M3.2.pdf) | Class slides |
-| Oct 31 | Midterm Review / Guest Lectures| | | 
+| Oct 20 | Principles of Concurrent Objects | [slides](lectures/8.M3.1.pdf) | Chapter 3 | 
+| Oct 22 | Specialized Concurrent Queues |[slides](lectures/9.M3.2.pdf) | Class slides | HW#2 Deadline, HW#3 Release
+| Oct 27 | Midterm | | | 
+| Oct 29 | Midterm Review / Guest Lectures | | | 
 | Nov 3 | Work Stealing | [slides](lectures/10.M3.3.pdf)| Chapter 10 + class slides |
 
 ## Module 4: GPU Computing
 
 | Date | Topic | Slides | Readings | Event
 | ------------ | ------------------------------- | -------- | -------------------- | --------------------
-| Nov 7| Intro to GPUs and GPU programming| [slides](lectures/11.M4.1.pdf) | CUDA By Example Chapter 1 | HW#3 Deadline, HW#4 Release
-| Nov 12 | Javascript Parallelism|[slides](lectures/12.M4.2.pdf) | Class Slides |
-| Nov 14 | Web GPU programming, (start memory models?) | [slides](lectures/13.M4.3.pdf)| Class Slides |
+| Nov 5 | Intro to GPUs and GPU programming| [slides](lectures/11.M4.1.pdf) | CUDA By Example Chapter 1 | HW#3 Deadline, HW#4 Release
+| Nov 10 | Javascript Parallelism|[slides](lectures/12.M4.2.pdf) | Class Slides |
+| Nov 12 | Web GPU programming, (start memory models?) | [slides](lectures/13.M4.3.pdf)| Class Slides |
 
 ## Module 5: Advanced topics
 
 | Date | Topic | Slides | Readings | Event
 | ------------| ------------------------------- | -------- | -------------------- | ----------
-| Nov 19 |Memory Consistency Models|[slides](lectures/14.M5.1.pdf)| [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) | HW#4 Deadline
-| Nov 21 |General concurrent sets | [slides](lectures/15.M5.2.pdf)| Chapter 9 + Class Slides | HW#5 Release
-| Nov 26 |General concurrent sets / Barriers| [slides](lectures/16.M5.3.pdf)| Chapter 17 |
-| Nov 28 | | | | Holiday
-| Dec 3 |Barriers / Processes | [slides](lectures/17.M5.4.pdf)| Class Slides | 
-| Dec 5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Practice session / Research lecture | [slides](lectures/18.M5.5.pdf)[Qs](lectures/Qs.md) | Class Slides | HW#5 Deadline
-| Dec 12, 12-3pm, lecture class | | | | Final exam
-
+| Nov 17 |Memory Consistency Models|[slides](lectures/14.M5.1.pdf)| [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) | HW#4 Deadline, HW#5 Release
+| Nov 19 |General concurrent sets | [slides](lectures/15.M5.2.pdf)| Chapter 9 + Class Slides | 
+| Nov 24 |General concurrent sets / Barriers| [slides](lectures/16.M5.3.pdf)| Chapter 17 |
+| Nov 26 | | | | Holiday
+| Dec 1 |Barriers / Processes | [slides](lectures/17.M5.4.pdf)| Class Slides | HW#5 Deadline
+| Dec 3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Practice session / Research lecture | [slides](lectures/18.M5.5.pdf)[Qs](lectures/Qs.md) | Class Slides | 
+| Dec 10, 12-3pm | | | | Final exam, lecture class
 
 ************************************************
 # Description
@@ -196,7 +195,8 @@ Md Hasanul Islam
 Tuesday Thursday 1:30-2:30pm
 
 - Tutor
-TBA
+Pratham Kotkar 
+<<pkotkar@ucsc.edu>>
 
 <!--- Tutor
 TBA-->

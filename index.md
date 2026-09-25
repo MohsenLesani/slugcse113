@@ -197,6 +197,8 @@ Tuesday Thursday 1:30-2:30pm
 - Tutor
 Pratham Kotkar 
 <<pkotkar@ucsc.edu>>
+3:00pm - 5:00pm on Mondays
+BE2 315 room
 
 <!--- Tutor
 TBA-->

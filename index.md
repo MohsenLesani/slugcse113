@@ -84,7 +84,7 @@ The example code snippets from the lectures are available at this [Code Repo](ht
 | ----------- | ------------------------------- | -------- | -------------------- | --------------------
 | Oct 20 | Principles of Concurrent Objects | [slides](lectures/8.M3.1.pdf) | Chapter 3 | 
 | Oct 22 | Specialized Concurrent Queues |[slides](lectures/9.M3.2.pdf) | Class slides | HW#2 Deadline, HW#3 Release
-| Oct 27 | Midterm | | | 
+| Oct 27 |  | | | Midterm |
 | Oct 29 | Midterm Review / Guest Lectures | | | 
 | Nov 3 | Work Stealing | [slides](lectures/10.M3.3.pdf)| Chapter 10 + class slides |
 

@@ -206,7 +206,7 @@ TBA-->
 - Instructor
 [Mohsen Lesani](https://mohsenlesani.github.io/)
 <<mlesani@ucsc.edu>>
-Tuesday Thursday 12-1pm. Office: E2 331
+Tuesday Thursday 3-4pm. Office: E2 331
 My office hours can be remote or in-person.
 My physical office is E2-331.
 I announced a Zoom link and its passcode on canvas.

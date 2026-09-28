@@ -192,7 +192,9 @@ We have a great teaching staff this quarter! All of them are passionate about pa
 - TA
 Md Hasanul Islam
 <<mislam5@ucsc.edu>>
-Tuesday Thursday 1:30-2:30pm
+Monday, Wednesday 10:30am-11:30am
+BE2, room 315,
+[Zoom](https://ucsc.zoom.us/j/7102041434?pwd=83EaIbcPSHOEigQ1UDyMvt67CJbqw9.1)
 
 - Tutor
 Pratham Kotkar 

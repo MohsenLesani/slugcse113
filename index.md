@@ -26,6 +26,8 @@ TAs:
     Md Hasanul Islam <<mislam5@ucsc.edu>>
 Tutor:
     Pratham Kotkar <<pkotkar@ucsc.edu>>
+Tutor:
+    Xin Yu Lau <<xlau@ucsc.edu>>
 
 Hello and welcome to the parallel and concurrent programming class! Over the last decade, systems have become increasingly parallel, from our phones to supercomputers. Nearly every device today contains multiple compute units, CPUs and GPUs among them. Working together, these units can solve problems such as model training far faster than a single core can. But they must be programmed with care, for both performance and safety. In this class, you will learn parallel programming models, synchronization idioms and their implementation, and reasoning about concurrency. 
 <!-- We will approach parallel programming from high-level reasoning down to concrete implementations. -->
@@ -195,15 +197,17 @@ Md Hasanul Islam
 Monday, Wednesday 10:30am-11:30am
 BE2, room 315,
 [Zoom](https://ucsc.zoom.us/j/7102041434?pwd=83EaIbcPSHOEigQ1UDyMvt67CJbqw9.1)
-//
+
 - Tutor
 Pratham Kotkar 
 <<pkotkar@ucsc.edu>>
 3:00pm - 5:00pm on Mondays
 BE2 315 room
 
-<!--- Tutor
-TBA-->
+- Tutor
+Xin Yu Lau 
+<<xlau@ucsc.edu>>
+Tuesday from 2-4pm
 
 - Instructor
 [Mohsen Lesani](https://mohsenlesani.github.io/)

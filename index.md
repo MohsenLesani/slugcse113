@@ -207,7 +207,7 @@ BE2 315 room
 - Tutor
 Xin Yu Lau 
 <<xlau@ucsc.edu>>
-Tuesday from 2-4pm
+Wednesday 3-5pm at the room in front of BE2-334
 
 - Instructor
 [Mohsen Lesani](https://mohsenlesani.github.io/)

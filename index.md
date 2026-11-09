@@ -208,7 +208,9 @@ Wednesday 3-5pm at the room in front of BE2-334
 - Tutor
 Thom Mott 
 <<tomott@ucsc.edu>>
-Tuesday 5:30pm and Wednesday 12pm.
+Tuesdays 5:30pm @ 258 Engineering Building 2
+Wednesdays 12pm on Zoom 
+https://ucsc.zoom.us/s/91940970742?pwd=5ibaH0ZryHtNtV70yd7Q3V2vvaboBv.1
 
 - Tutor
 Pratham Kotkar 

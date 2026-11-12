@@ -236,7 +236,7 @@ Link to Piazza:
 <https://piazza.com/class/mubljwbhjval1/>
 
 If your question is more general, make it visible to the rest of class. If it isn't clear if it is a sensitive question or not, please start out by making the question to the teaching staff and we can advise on making it public or not. Feel free to answer questions that your classmates post or freely participate in discussions there. 
- 
+
 If it is a sensitive topic, you can post only to the teaching staff. Please do not email us individually directly unless it is an emergency. Those emails get buried, or they might not be seen by the right member of the teaching staff. This especially applies to grading questions; if you have questions about your grade do *not* email a grader directly. Write a private post on Piazza to the teaching staff. Typically grades are a collaborative effort between several readers, and it helps if we can all see the issue.
 
 We will strive to reply to homework questions and discussions within 24 hours. Please do not plan on, or expect help, outside of regular business hours (after 5 pm, weekends, or holidays)

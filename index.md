@@ -89,27 +89,27 @@ The example code snippets from the lectures are available at this [Code Repo](ht
 | Oct 20 | Principles of Concurrent Objects | [slides](lectures/8.M3.1.pdf) | Chapter 3 | 
 | Oct 22 | Specialized Concurrent Queues |[slides](lectures/9.M3.2.pdf) | Class slides | HW#2 Deadline, HW#3 Release
 | Oct 27 |  | | | Midterm |
-| Oct 29 | Midterm Review / Guest Lectures | | | 
-| Nov 3 | Work Stealing | [slides](lectures/10.M3.3.pdf)| Chapter 10 + class slides |
+| Oct 29 | Work Stealing / Midterm Review | [slides](lectures/10.M3.3.pdf) | | 
+| Nov 3 | Work Stealing | [slides](lectures/11.M4.1.pdf)| Chapter 10 + class slides |
 
 ## Module 4: GPU Computing
 
 | Date | Topic | Slides | Readings | Event
 | ------------ | ------------------------------- | -------- | -------------------- | --------------------
-| Nov 5 | Intro to GPUs and GPU programming| [slides](lectures/11.M4.1.pdf) | CUDA By Example Chapter 1 | HW#3 Deadline, HW#4 Release
-| Nov 10 | Javascript Parallelism|[slides](lectures/12.M4.2.pdf) | Class Slides |
-| Nov 12 | Web GPU programming, (start memory models?) | [slides](lectures/13.M4.3.pdf)| Class Slides |
+| Nov 5 | Intro to GPUs and GPU programming| [slides](lectures/12.M4.2.pdf) | CUDA By Example Chapter 1 | HW#3 Deadline, HW#4 Release
+| Nov 10 | Javascript Parallelism|[slides](lectures/13.M4.3.pdf) | Class Slides |
+| Nov 12 | Web GPU programming, start memory models | [slides](lectures/14.M5.1.pdf)| Class Slides |
 
 ## Module 5: Advanced topics
 
 | Date | Topic | Slides | Readings | Event
 | ------------| ------------------------------- | -------- | -------------------- | ----------
-| Nov 17 |Memory Consistency Models|[slides](lectures/14.M5.1.pdf)| [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) | HW#4 Deadline, HW#5 Release
-| Nov 19 |General concurrent sets | [slides](lectures/15.M5.2.pdf)| Chapter 9 + Class Slides | 
-| Nov 24 |General concurrent sets / Barriers| [slides](lectures/16.M5.3.pdf)| Chapter 17 |
+| Nov 17 |Memory Consistency Models|[slides](lectures/15.M5.2.pdf)| [You Don’t Know Jack ...](https://queue.acm.org/detail.cfm?id=2088916) | HW#4 Deadline, HW#5 Release
+| Nov 19 |General concurrent sets | [slides](lectures/16.M5.3.pdf)| Chapter 9 + Class Slides | 
+| Nov 24 |General concurrent sets / Barriers| [slides](lectures/17.M5.4.pdf)| Chapter 17 |
 | Nov 26 | | | | Holiday
-| Dec 1 |Barriers / Processes | [slides](lectures/17.M5.4.pdf)| Class Slides | HW#5 Deadline
-| Dec 3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Practice session / Research lecture | [slides](lectures/18.M5.5.pdf)[Qs](lectures/Qs.md) | Class Slides | 
+| Dec 1 |Barriers / Processes | [slides](lectures/18.M5.5.pdf)| Class Slides | HW#5 Deadline
+| Dec 3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|Practice session / Research lecture | [Qs](lectures/Qs.md) | Class Slides | 
 | Dec 10, 12-3pm | | | | Final exam, lecture class
 
 ************************************************

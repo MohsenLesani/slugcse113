@@ -219,7 +219,6 @@ Pratham Kotkar
 BE2 315 room
 
 
-
 - Instructor
 [Mohsen Lesani](https://mohsenlesani.github.io/)
 <<mlesani@ucsc.edu>>
